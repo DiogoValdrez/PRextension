@@ -13,7 +13,7 @@
  	],
 
 	"action": {
-		"default_icon": "img.png",
+		"default_icon": "img2.png",
 		"default_popup": "popup.html",
 		"default_title": "Buy mi book"
  	}
