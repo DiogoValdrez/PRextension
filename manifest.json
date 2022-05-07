@@ -1,0 +1,20 @@
+{
+ 	"manifest_version": 3,
+	"name": "Buy mi book",
+ 	"description": "This extension gud, very gud, almost as gud as book",
+ 	"version": "0.1",
+	
+	"content_scripts": [
+ 	{
+ 		"matches": ["https://www.google.com/*"],
+		"css": ["main.css"]
+ 		
+ 	}
+ 	],
+
+	"action": {
+		"default_icon": "img.png",
+		"default_popup": "popup.html",
+		"default_title": "Buy mi book"
+ 	}
+}
